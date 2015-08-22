@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BDD3601B88C6CF006FF42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */; };
+		40BDD3621B88C6CF006FF42A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD3611B88C6CF006FF42A /* GameScene.sks */; };
+		40BDD3641B88C6CF006FF42A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD3631B88C6CF006FF42A /* GameScene.swift */; };
+		40BDD3661B88C6CF006FF42A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD3651B88C6CF006FF42A /* GameViewController.swift */; };
+		40BDD3691B88C6CF006FF42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD3671B88C6CF006FF42A /* Main.storyboard */; };
+		40BDD36B1B88C6CF006FF42A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD36A1B88C6CF006FF42A /* Images.xcassets */; };
+		40BDD36E1B88C6CF006FF42A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD36C1B88C6CF006FF42A /* LaunchScreen.xib */; };
+		40BDD37A1B88C6CF006FF42A /* FlyingTamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD3791B88C6CF006FF42A /* FlyingTamoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BDD3741B88C6CF006FF42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BDD3521B88C6CF006FF42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDD3591B88C6CF006FF42A;
+			remoteInfo = FlyingTamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BDD35A1B88C6CF006FF42A /* FlyingTamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingTamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDD35E1B88C6CF006FF42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40BDD3611B88C6CF006FF42A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		40BDD3631B88C6CF006FF42A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		40BDD3651B88C6CF006FF42A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40BDD3681B88C6CF006FF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BDD36A1B88C6CF006FF42A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40BDD36D1B88C6CF006FF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40BDD3731B88C6CF006FF42A /* FlyingTamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingTamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDD3781B88C6CF006FF42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BDD3791B88C6CF006FF42A /* FlyingTamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTamoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BDD3571B88C6CF006FF42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDD3701B88C6CF006FF42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BDD3511B88C6CF006FF42A = {
+			isa = PBXGroup;
+			children = (
+				40BDD35C1B88C6CF006FF42A /* FlyingTamo */,
+				40BDD3761B88C6CF006FF42A /* FlyingTamoTests */,
+				40BDD35B1B88C6CF006FF42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BDD35B1B88C6CF006FF42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD35A1B88C6CF006FF42A /* FlyingTamo.app */,
+				40BDD3731B88C6CF006FF42A /* FlyingTamoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BDD35C1B88C6CF006FF42A /* FlyingTamo */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */,
+				40BDD3611B88C6CF006FF42A /* GameScene.sks */,
+				40BDD3631B88C6CF006FF42A /* GameScene.swift */,
+				40BDD3651B88C6CF006FF42A /* GameViewController.swift */,
+				40BDD3671B88C6CF006FF42A /* Main.storyboard */,
+				40BDD36A1B88C6CF006FF42A /* Images.xcassets */,
+				40BDD36C1B88C6CF006FF42A /* LaunchScreen.xib */,
+				40BDD35D1B88C6CF006FF42A /* Supporting Files */,
+			);
+			path = FlyingTamo;
+			sourceTree = "<group>";
+		};
+		40BDD35D1B88C6CF006FF42A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD35E1B88C6CF006FF42A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BDD3761B88C6CF006FF42A /* FlyingTamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD3791B88C6CF006FF42A /* FlyingTamoTests.swift */,
+				40BDD3771B88C6CF006FF42A /* Supporting Files */,
+			);
+			path = FlyingTamoTests;
+			sourceTree = "<group>";
+		};
+		40BDD3771B88C6CF006FF42A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD3781B88C6CF006FF42A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BDD3591B88C6CF006FF42A /* FlyingTamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDD37D1B88C6CF006FF42A /* Build configuration list for PBXNativeTarget "FlyingTamo" */;
+			buildPhases = (
+				40BDD3561B88C6CF006FF42A /* Sources */,
+				40BDD3571B88C6CF006FF42A /* Frameworks */,
+				40BDD3581B88C6CF006FF42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingTamo;
+			productName = FlyingTamo;
+			productReference = 40BDD35A1B88C6CF006FF42A /* FlyingTamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BDD3721B88C6CF006FF42A /* FlyingTamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDD3801B88C6CF006FF42A /* Build configuration list for PBXNativeTarget "FlyingTamoTests" */;
+			buildPhases = (
+				40BDD36F1B88C6CF006FF42A /* Sources */,
+				40BDD3701B88C6CF006FF42A /* Frameworks */,
+				40BDD3711B88C6CF006FF42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BDD3751B88C6CF006FF42A /* PBXTargetDependency */,
+			);
+			name = FlyingTamoTests;
+			productName = FlyingTamoTests;
+			productReference = 40BDD3731B88C6CF006FF42A /* FlyingTamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BDD3521B88C6CF006FF42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Tadashi.S;
+				TargetAttributes = {
+					40BDD3591B88C6CF006FF42A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BDD3721B88C6CF006FF42A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 40BDD3591B88C6CF006FF42A;
+					};
+				};
+			};
+			buildConfigurationList = 40BDD3551B88C6CF006FF42A /* Build configuration list for PBXProject "FlyingTamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BDD3511B88C6CF006FF42A;
+			productRefGroup = 40BDD35B1B88C6CF006FF42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BDD3591B88C6CF006FF42A /* FlyingTamo */,
+				40BDD3721B88C6CF006FF42A /* FlyingTamoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BDD3581B88C6CF006FF42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDD36E1B88C6CF006FF42A /* LaunchScreen.xib in Resources */,
+				40BDD36B1B88C6CF006FF42A /* Images.xcassets in Resources */,
+				40BDD3621B88C6CF006FF42A /* GameScene.sks in Resources */,
+				40BDD3691B88C6CF006FF42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDD3711B88C6CF006FF42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BDD3561B88C6CF006FF42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDD3641B88C6CF006FF42A /* GameScene.swift in Sources */,
+				40BDD3661B88C6CF006FF42A /* GameViewController.swift in Sources */,
+				40BDD3601B88C6CF006FF42A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDD36F1B88C6CF006FF42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDD37A1B88C6CF006FF42A /* FlyingTamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BDD3751B88C6CF006FF42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDD3591B88C6CF006FF42A /* FlyingTamo */;
+			targetProxy = 40BDD3741B88C6CF006FF42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BDD3671B88C6CF006FF42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BDD3681B88C6CF006FF42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BDD36C1B88C6CF006FF42A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BDD36D1B88C6CF006FF42A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BDD37B1B88C6CF006FF42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BDD37C1B88C6CF006FF42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BDD37E1B88C6CF006FF42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingTamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40BDD37F1B88C6CF006FF42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingTamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40BDD3811B88C6CF006FF42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingTamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingTamo.app/FlyingTamo";
+			};
+			name = Debug;
+		};
+		40BDD3821B88C6CF006FF42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingTamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingTamo.app/FlyingTamo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BDD3551B88C6CF006FF42A /* Build configuration list for PBXProject "FlyingTamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDD37B1B88C6CF006FF42A /* Debug */,
+				40BDD37C1B88C6CF006FF42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BDD37D1B88C6CF006FF42A /* Build configuration list for PBXNativeTarget "FlyingTamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDD37E1B88C6CF006FF42A /* Debug */,
+				40BDD37F1B88C6CF006FF42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BDD3801B88C6CF006FF42A /* Build configuration list for PBXNativeTarget "FlyingTamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDD3811B88C6CF006FF42A /* Debug */,
+				40BDD3821B88C6CF006FF42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BDD3521B88C6CF006FF42A /* Project object */;
+}
