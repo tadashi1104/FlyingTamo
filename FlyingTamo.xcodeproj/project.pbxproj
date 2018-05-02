@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40BDD3601B88C6CF006FF42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */; };
-		40BDD3621B88C6CF006FF42A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD3611B88C6CF006FF42A /* GameScene.sks */; };
 		40BDD3641B88C6CF006FF42A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD3631B88C6CF006FF42A /* GameScene.swift */; };
 		40BDD3661B88C6CF006FF42A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDD3651B88C6CF006FF42A /* GameViewController.swift */; };
 		40BDD3691B88C6CF006FF42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BDD3671B88C6CF006FF42A /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		40BDD35A1B88C6CF006FF42A /* FlyingTamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingTamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BDD35E1B88C6CF006FF42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40BDD3611B88C6CF006FF42A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		40BDD3631B88C6CF006FF42A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		40BDD3651B88C6CF006FF42A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		40BDD3681B88C6CF006FF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				40BDD35F1B88C6CF006FF42A /* AppDelegate.swift */,
-				40BDD3611B88C6CF006FF42A /* GameScene.sks */,
 				40BDD3631B88C6CF006FF42A /* GameScene.swift */,
 				40BDD3651B88C6CF006FF42A /* GameViewController.swift */,
 				40BDD3671B88C6CF006FF42A /* Main.storyboard */,
@@ -167,6 +164,7 @@
 				TargetAttributes = {
 					40BDD3591B88C6CF006FF42A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V3VL8226ZP;
 					};
 					40BDD3721B88C6CF006FF42A = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,7 +198,6 @@
 			files = (
 				40BDD36E1B88C6CF006FF42A /* LaunchScreen.xib in Resources */,
 				40BDD36B1B88C6CF006FF42A /* Images.xcassets in Resources */,
-				40BDD3621B88C6CF006FF42A /* GameScene.sks in Resources */,
 				40BDD3691B88C6CF006FF42A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlyingTamo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,7 +358,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlyingTamo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
